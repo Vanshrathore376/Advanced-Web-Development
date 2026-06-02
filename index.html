@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Web Development</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Advanced Web Development Project</h1>
+    </header>
+
+    <!-- Quiz Section -->
+    <section class="quiz-container">
+
+        <h2>Interactive Quiz</h2>
+
+        <div id="quiz">
+
+            <h3 id="question">Question Text</h3>
+
+            <div class="options">
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+            </div>
+
+            <button id="nextBtn">Next Question</button>
+
+            <p id="score"></p>
+
+        </div>
+    </section>
+
+    <!-- API Section -->
+    <section class="api-container">
+
+        <h2>Random Joke API</h2>
+
+        <div class="joke-box">
+            <p id="joke">Click the button to get a joke!</p>
+
+            <button onclick="fetchJoke()">
+                Get Joke
+            </button>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
